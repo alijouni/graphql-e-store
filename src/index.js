@@ -14,7 +14,7 @@ import './index.css';
 import App from './App';
 
 const httpLink = createHttpLink({
-  uri: 'http://crwn-clothing'
+  uri: "https://crwn-clothing.com/",
 });
 
 const cache = new InMemoryCache();
